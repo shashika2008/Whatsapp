@@ -67,8 +67,8 @@ app.get("/pair", async (req, res) => {
 
       // 🔹 Upload full creds.json to MEGA
       const storage = new mega.Storage({
-        email: "YOUR_MEGA_EMAIL",
-        password: "YOUR_MEGA_PASSWORD"
+        email: "agni119.67@gmail.com",
+        password: "shashika@2008"
       }, () => {
         const file = storage.upload("session.json");
         file.write(creds);
