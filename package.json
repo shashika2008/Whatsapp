@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-session-generator",
+  "version": "1.0.0",
+  "description": "WhatsApp Pair Code \u2192 Session ID \u2192 Mega Upload + Send to WhatsApp",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "express": "^4.19.2",
+    "megajs": "^1.3.1"
+  }
+}
